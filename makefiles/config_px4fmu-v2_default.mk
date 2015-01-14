@@ -161,3 +161,7 @@ endef
 BUILTIN_COMMANDS := \
 	$(call _B, sercon,                 ,                          2048,  sercon_main                ) \
 	$(call _B, serdis,                 ,                          2048,  serdis_main                )
+
+
+#Created By Nay
+MODULES		+= examples/px4_flow_daemon_app
